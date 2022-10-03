@@ -8,3 +8,31 @@ body{
     /* DEBUG */
     background-color: brown;
 }
+
+/* Nav Rules */
+#flex-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+
+    /* DEBUG */
+    background-color: blue;
+}
+
+#flex-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.flex-nav-list{
+    display: flex;
+    justify-content: space-around;
+    min-width: 500px;
+}
+
+.flex-nav-list li{
+    list-style-type: none;
+    color: white;
+}
