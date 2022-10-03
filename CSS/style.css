@@ -16,10 +16,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
     height: 50px;
-    margin-bottom: 1px;
 
     /* DEBUG */
     background-color: blue;
+    margin-bottom: 1px;
 }
 
 #flex-nav a{
@@ -51,6 +51,7 @@ body{
     /* DEBUG */
     background-color: blue;
     color: white;
+    margin-bottom: 1px;
 }
 
 .header-title{
@@ -87,8 +88,129 @@ body{
 
 #flex-header-button a{
     text-decoration: none;
-    
+
     /* DEBUG */
     color: white;
     margin: 50px;
+}
+
+/* Main Section 1 */
+
+#flex-block1{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    margin-bottom: 1px;
+}
+
+#flex-block1 .left1{
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+#flex-block1 #flex-right1{
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+#flex-right1{
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-right1 .title1{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+#flex-right1 .para1{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* Main Section 2 */
+
+
+/* Main Section 3 */
+
+#flex-block3{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    margin-bottom: 1px;
+}
+
+#flex-block3 .left3{
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
+
+#flex-block3 #flex-right3{
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+#flex-right3{
+    display: flex;
+    flex-direction: column;
+}
+
+#flex-right3 .title3{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+#flex-right3 .para3{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
 }
