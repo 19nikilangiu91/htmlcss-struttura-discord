@@ -16,6 +16,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     height: 50px;
+    margin-bottom: 1px;
 
     /* DEBUG */
     background-color: blue;
@@ -35,4 +36,59 @@ body{
 .flex-nav-list li{
     list-style-type: none;
     color: white;
+}
+
+/* Header Rules */
+
+#flex-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+
+    /* DEBUG */
+    background-color: blue;
+    color: white;
+}
+
+.header-title{
+    height: 100px;
+    width: 50%;
+
+    /* DEBUG */
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+}
+
+.header-p{
+    height: 100px;
+    width: 50%;
+
+    /* DEBUG */
+    background-color: yellow;
+    color: green;
+    text-align: center;
+    line-height: 100px;
+}
+
+#flex-header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 50%;
+
+    /* DEBUG */
+    background-color: green;
+}
+
+#flex-header-button a{
+    text-decoration: none;
+    
+    /* DEBUG */
+    color: white;
+    margin: 50px;
 }
