@@ -19,7 +19,7 @@ body{
 
     /* DEBUG */
     background-color: blue;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 #flex-nav a{
@@ -45,13 +45,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 450px;
 
 
     /* DEBUG */
     background-color: blue;
     color: white;
-    margin-bottom: 1px;
+    /* margin-bottom: 25px; */
 }
 
 .header-title{
@@ -102,7 +102,7 @@ body{
 
     /* DEBUG */
     background-color: blue;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 .left1{
@@ -158,7 +158,7 @@ body{
 
     /* DEBUG */
     background-color: blue;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 #flex-left2{
@@ -215,7 +215,7 @@ body{
 
     /* DEBUG */
     background-color: blue;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 .left3{
@@ -269,20 +269,19 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
-    margin: 1px;
+    height: 400px;
 
 
     /* DEBUG */
     background-color: blue;
-    margin-bottom: 1px;
+    /* margin-bottom: 1px; */
 }
 
 #flex-top{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 100px;
     width: 60%;
     margin: 10px auto 0 auto;
 
@@ -291,7 +290,7 @@ body{
 }
 
 .title4{
-    height: 50px;
+    height: 25px;
     width: 30%;
     margin: 0px auto;
     
@@ -300,11 +299,11 @@ body{
     background-color:yellow;
     color: red;
     text-align: center;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 .para4{
-    height: 50px;
+    height: 25px;
     width: 30%;
     margin: 1px auto;
 
@@ -312,11 +311,11 @@ body{
     background-color:yellow;
     color: red;
     text-align: center;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 .middle{
-    height: 200px;
+    height: 100px;
     width: 60%;
     margin: 0px auto;
 
@@ -324,14 +323,14 @@ body{
     background-color:yellow;
     color: red;
     text-align: center;
-    line-height: 200px;
+    line-height: 100px;
 }
 
 #flex-bottom{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 100px;
     width: 60%;
     margin: 0px auto 10px auto;
 
@@ -340,7 +339,7 @@ body{
 }
 
 .title5{
-    height: 50px;
+    height: 25px;
     width: 30%;
     margin: 1px auto;
 
@@ -348,7 +347,7 @@ body{
     background-color:yellow;
     color: red;
     text-align: center;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 .bottom-button{
@@ -362,6 +361,130 @@ body{
     line-height: 50px;
     text-decoration: none;
 }
+
+/* Footer Top Rules */
+
+#footer-top{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    /* margin: 1px; */
+
+
+    /* DEBUG */
+    background-color: blue;
+}
+
+#flex-footer1{
+    display: flex;
+    justify-content: flex-start;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+
+    /* DEBUG */
+    background-color: red;
+    height: 80%;
+    width: 80%;
+    /* margin-bottom: 1px; */
+}
+
+/* Left Column*/
+
+.left-column{
+    /* DEBUG */
+     background-color: green;
+     margin-bottom: 1px;
+     height: 100%;
+     width: 20%;
+}
+
+.title6{
+    /* DEBUG */
+     background-color: red;
+     margin-bottom: 1px;
+     color: white;
+     line-height: 50px;
+}
+
+/* List 1 */
+
+.list1{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: yellow;
+}
+
+li{
+    padding-top: 15px;
+}
+
+/* List 2 */
+    
+.list2{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: green;
+}
+
+/* List 3 */
+
+.list3{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+
+     /* DEBUG */
+     background-color: yellow;
+}
+
+/* List 4 */
+
+.list4{
+    width: 20%;
+    padding: 10px 20px;
+    list-style-type: none;
+    
+    /* DEBUG */
+     background-color: green;
+}
+
+/* Footer Bottom Rules */
+
+#flex-footer2{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+    /* DEBUG */
+    background-color: black;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 80%;
+    border-top: 1px solid white;
+
+    /* DEBUG */
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
