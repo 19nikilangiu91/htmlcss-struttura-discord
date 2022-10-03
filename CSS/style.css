@@ -105,7 +105,7 @@ body{
     margin-bottom: 1px;
 }
 
-#flex-block1 .left1{
+.left1{
     height: 400px;
     width: 30%;
     margin: 10px 0 10px auto;
@@ -117,7 +117,9 @@ body{
     line-height: 400px;
 }
 
-#flex-block1 #flex-right1{
+#flex-right1{
+    display: flex;
+    flex-direction: column;
     height: 400px;
     width: 30%;
     margin: 10px auto 10px 0;
@@ -126,12 +128,7 @@ body{
     background-color: yellow;
 }
 
-#flex-right1{
-    display: flex;
-    flex-direction: column;
-}
-
-#flex-right1 .title1{
+.title1{
     height: 200px;
     width: 100%;
 
@@ -142,7 +139,7 @@ body{
     line-height: 200px;
 }
 
-#flex-right1 .para1{
+.para1{
     height: 200px;
     width: 100%;
 
@@ -155,6 +152,60 @@ body{
 
 /* Main Section 2 */
 
+#flex-block2{
+    display: flex;
+    height: 420px;
+
+    /* DEBUG */
+    background-color: blue;
+    margin-bottom: 1px;
+}
+
+#flex-left2{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    margin: 10px 0 10px auto;
+
+    /* DEBUG */
+    background-color: yellow;
+}
+
+.title2{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: orange;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.para2{
+    height: 200px;
+    width: 100%;
+
+     /* DEBUG */
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+
+.right2{
+    height: 400px;
+    width: 30%;
+    margin: 10px auto 10px 0;
+    
+    /* DEBUG */
+    
+    background-color: red;
+    color:white;
+    text-align: center;
+    line-height: 400px;
+}
 
 /* Main Section 3 */
 
@@ -167,7 +218,7 @@ body{
     margin-bottom: 1px;
 }
 
-#flex-block3 .left3{
+.left3{
     height: 400px;
     width: 30%;
     margin: 10px 0 10px auto;
@@ -179,7 +230,9 @@ body{
     line-height: 400px;
 }
 
-#flex-block3 #flex-right3{
+#flex-right3{
+    display: flex;
+    flex-direction: column;
     height: 400px;
     width: 30%;
     margin: 10px auto 10px 0;
@@ -188,12 +241,7 @@ body{
     background-color: yellow;
 }
 
-#flex-right3{
-    display: flex;
-    flex-direction: column;
-}
-
-#flex-right3 .title3{
+.title3{
     height: 200px;
     width: 100%;
 
@@ -204,7 +252,7 @@ body{
     line-height: 200px;
 }
 
-#flex-right3 .para3{
+.para3{
     height: 200px;
     width: 100%;
 
@@ -214,3 +262,120 @@ body{
     text-align: center;
     line-height: 200px;
 }
+
+/* Main Section 4 */
+
+#flex-block4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    margin: 1px;
+
+
+    /* DEBUG */
+    background-color: blue;
+    margin-bottom: 1px;
+}
+
+#flex-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 60%;
+    margin: 10px auto 0 auto;
+
+    /* DEBUG */
+    background-color:red;
+}
+
+.title4{
+    height: 50px;
+    width: 30%;
+    margin: 0px auto;
+    
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+}
+
+.para4{
+    height: 50px;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+}
+
+.middle{
+    height: 200px;
+    width: 60%;
+    margin: 0px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 200px;
+}
+
+#flex-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 60%;
+    margin: 0px auto 10px auto;
+
+    /* DEBUG */
+    background-color:green;
+}
+
+.title5{
+    height: 50px;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    background-color:yellow;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+}
+
+.bottom-button{
+    height: auto;
+    width: 30%;
+    margin: 1px auto;
+
+    /* DEBUG */
+    color: red;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
