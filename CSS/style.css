@@ -126,14 +126,14 @@ body{
     margin: 10px auto 10px 0;
 
     /* DEBUG */
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 .title1{
     
     height: 50%;
     width: 55%;
-    margin: 0 auto;
+    margin: 0;
     text-align: left;
     font-size: 20px;
 
@@ -147,13 +147,15 @@ body{
 
 .para1{
     height: 50%;
-    width: 100%;
+    width: 80%;
+    margin: 0;
+    font-size: 20px;
+
 
      /* DEBUG */
     background-color: green;
     color: white;
-    text-align: center;
-    line-height: 200px;
+    
 }
 
 /* Main Section 2 */
